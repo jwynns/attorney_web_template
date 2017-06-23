@@ -976,242 +976,67 @@ header.with-boxed {
 .carousel-fade .carousel-control {
 	z-index: 2;
 }
-/* Portfolio */
-#portfolio {
-	padding: 30px 0px 40px 0px;
-	overflow: hidden;
+/* Team */
+
+.single_team {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  display: inline;
+  float: left;
+  padding: 25px 15px;
+  text-align: center;
+  width: 100%;
 }
-#portfolio ul.controls {
-	padding: 0px 0 20px 2px;
-	overflow: hidden;
-	margin: 20px 0;
-	border-bottom: #EC6C52 solid 2px;
-}
-#portfolio ul.controls li {
+.team_img{
 	float: left;
-	color: #000;
-	font-weight: 400;
-	font-size: 15px;
-	padding: 5px 15px;
-	cursor: pointer;
-}
-#portfolio ul.controls li:hover, #portfolio ul.controls li.active {
-	padding: 4px 15px;
-	color: #EC6C52;
-	margin: 0 -1px;
-	border: 1px solid #EC6C52;
-}
-#portfolio ul#Grid {
-	margin: 0 0 30px 0;
-	padding: 0;
-	position: relative;
-}
-#portfolio ul#Grid li {
-	padding: 0 1px 1px 0;
-	margin: 0;
-	display: none;
-	position: relative;
-}
-#portfolio ul#Grid li a {
 	display: block;
-	position: relative;
-	color: #fff;
-}
-#portfolio ul#Grid li span.overlay {
-	position: absolute;
-	left: 0px;
-	top: 0px;
 	width: 100%;
-	height: 100%;
-	opacity: 0;
-	filter: alpha(opacity=0);
-	visibility: hidden;
-	text-indent: -9999px;
-	-webkit-transition: 0.3s ease-in-out;
-	-moz-transition: 0.3s ease-in-out;
-	-o-transition: 0.3s ease-in-out;
-	transition: 0.3s ease-in-out;
-	background: #000;
 }
-#portfolio ul#Grid li:hover span.overlay {
-	visibility: visible;
-	opacity: 0.2;
-	filter: alpha(opacity=20);
+.team_img > img {
+  border-radius: 100%;
+  height: 150px;
+  margin: 0 auto 15px;
+  width: 150px;
 }
-#portfolio ul#Grid a.link {
-	padding: 0px 10px;
-	height: 0;
-	-webkit-transition: 0.3s;
-	-moz-transition: 0.3s;
-	-o-transition: 0.3s;
-	transition: 0.3s;
-	z-index: 10;
-	overflow: hidden;
-	font-size: 22px;
-	font-weight: 400;
+.single_team h5 {
+  color: #555;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 18px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.single_team span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.single_team p {
+  line-height: 26px;
+}
+.team_social{
+	float: left;
+	display: inline;
 	width: 100%;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	color: #FFF;
-	line-height: 30px;
-	background: #EC6C52;
+	margin-top: 10px;
 }
-#portfolio ul#Grid li:hover a.link {
-	background: #EC6C52;
-	opacity: 0.9;
-}
-#portfolio ul#Grid a.link span {
-	color: #f9f9f9;
-	font-weight: 400;
-	display: block;
-	font-size: 14px;
-	text-transform: none;
-	line-height: 22px;
-}
-#portfolio ul#Grid a.link:after {
-	border-color: rgba(63, 141, 191, 0);
-	border-bottom-color: #EC6C52;
-	border-width: 10px;
-	margin-left: -10px;
-}
-#portfolio ul#Grid a.link:before {
-	border-color: rgba(63, 141, 191, 0);
-	border-bottom-color: #EC6C52;
-	border-width: 16px;
-	margin-left: -16px;
-}
-#portfolio ul#Grid li:hover a.link {
-	padding: 10px 10px;
-	height: auto;
-	overflow: visible;
-	text-decoration: none;
-}
-/* ## REST CSS */
-ul.dropdown-menu {
-	display: block;
-	-webkit-transition: all .25s ease;
-	-moz-transition: all .25s ease;
-	-ms-transition: all .25s ease;
-	-o-transition: all .25s ease;
-	transition: all .25s ease;
-	top: 85%;
-	opacity: 0;
-	visibility: hidden;
-}
-.dropdown:hover .dropdown-menu {
-	top: 100%;
-	opacity: 1;
-	visibility: visible;
-}
- @media(max-width:767px) {
-header .navbar-default .navbar-brand, header .navbar-default .navbar-brand:hover, header.with-boxed .navbar-default .navbar-brand, header.with-boxed .navbar-default .navbar-brand:hover {
-	padding: 30px 15px 55px 15px;
-}
-.main__header .navbar-default .navbar-brand, .main__header .navbar-default .navbar-brand:hover {
-	padding: 30px 15px 55px 15px;
-}
-.navbar-default .navbar-toggle {
-	border-color: #FFF;
-}
-.navbar-default .navbar-toggle .icon-bar {
-	background: #FFF;
-}
-.navbar-default .navbar-nav > li > a {
-	color: #FFF;
-}
-.navbar-default ul.navbar-collapse {
-	display: block !important;
-	height: 0px;
-}
-ul.dropdown-menu {
-	visibility: visible;
-	opacity: 1;
-	display: none;
-}
-.open .dropdown-menu {
-	display: block;
-	visibility: visible;
-	opacity: 1;
-}
-.slider {
-	overflow: hidden;
-	max-width: 100%;
-}
-.main__middle__container {
-	overflow: hidden;
-	max-width: 100%;
-}
-footer {
-	overflow: hidden;
-	max-width: 100%;
-}
-.row {
-	padding: 45px 0;
-}
-h1 {
-	font-size: 24px;
-	line-height: normal;
-}
-h2 {
-	font-size: 22px;
-	line-height: normal;
-}
-h3 {
-	font-size: 20px;
-	line-height: normal;
-}
-.pull-left {
-	float: none !important;
-}
-.pull-right {
-	float: none !important;
-}
-.icon-item .pull-left {
-	float: left !important;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-	color: #545454;
-}
-#portfolio ul#Grid a.link span {
-	font-size: 11px;
-	line-height: 15px;
-}
-#portfolio ul.controls li {
-	padding: 5px 10px;
+.team_social a {
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  background: #ccc;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 }
- @media(min-width:768px) and (max-width: 991px) {
-.carousel .btn {
-	display: none;
-}
-.carousel-caption {
-	top: 10%;
-}
-h2 {
-	font-size: 30px;
-}
-h2.text-center {
-	padding: 0 10px;
-}
-.row {
-	padding: 35px 0;
-}
-#portfolio ul#Grid a.link {
-	font-size: 18px;
-}
-#portfolio ul#Grid a.link span {
-	font-size: 11px;
-	line-height: 15px;
-}
-.carousel-caption {
-	top: 45%;
-}
-}
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-	min-width: 100%;
-	height: auto;
-}
+
 /* Columns */
 .one_half_pad {
 	width: 44%
