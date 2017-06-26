@@ -175,7 +175,7 @@ p.big-paragraph {
 	font-size: 18px;
 	border-color: #fff;
 }
-/* Recent Posts */
+/* Recent Posts aka Services*/
 .recent-posts h2 {
 }
 .recent-posts h2 span {
@@ -195,7 +195,10 @@ p.big-paragraph {
 .recent-posts .col-md-4 h3 {
 	text-transform: none;
 }
-#text-left {
+.recent-posts .col-md-4 {
+	padding-left: 50px;
+}
+.text-left {
 	text-align: left;
 }
 .recent-posts .col-md-3 .icon-item {
@@ -1052,95 +1055,4 @@ header.with-boxed {
 .team p {
 	font-size: 1em !important;
 	text-align: left;
-}
-
-/* Services */
-
-.fullwidth-block {
-	padding: 50px 0 50px;
-	overflow: hidden;
-}
-
-.team {
-	text-align: center;
-	margin: 3%;
-	margin-bottom: 30px;
-	width: 25%;
-	padding: 0 15px;
-}
-
-.feature {
-	margin-bottom: 50px;
-	position: relative;
-}
-
-.feature header {
-	margin-bottom: 30px;
-}
-
-.feature header .feature-icon, .feature header .feature-title-copy {
-	display: inline-block;
-	vertical-align: top;
-}
-
-.feature header .feature-icon {
-	margin-right: 20px;
-}
-
-.feature header .feature-title {
-	font-size: 24px;
-	font-size: 1.5em;
-	color: white;
-	margin-bottom: 0;
-	line-height: 1;
-}
-
-.feature header .feature-subtitle {
-	font-size: 12px;
-	font-size: 0.75em;
-	color: #888;
-	text-transform: uppercase;
-}
-
-.feature-grid .feature {
-	background: #111113;
-	margin-bottom: 0;
-	padding: 50px 30px !important;
-	text-align: center;
-}
-
-.feature-grid .feature:nth-child(even) {
-	background-color: #242424;
-}
-
-.feature-grid .feature .feature-image {
-	margin-bottom: 20px;
-}
-
-.feature-grid .feature .feature-title {
-	font-size: 36px;
-	font-size: 2.25em;
-	margin-bottom: 10px;
-	color: white;
-	text-transform: uppercase;
-}
-
-.feature-grid .feature p {
-	margin-bottom: 0;
-}
-
-.feature.boxed {
-	padding: 30px;
-	border: 1px solid #b7b7b7;
-	margin-bottom: 30px;
-}
-
-.feature.boxed p {
-	margin-bottom: 0;
-}
-
-.quote-section {
-	margin: 30px 0;
-	padding: 50px 100px;
-	border: 3px solid #28292c;
 }
