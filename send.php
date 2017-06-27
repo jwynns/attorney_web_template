@@ -1,6 +1,6 @@
 <? error_reporting(0);
 
-$mail = "you@example.com";
+$mail = "ivo@vanrhijn.ru";
 
 if($_POST['message']) {
         $message = "<h2>Hello here is a message from ".$_SERVER['SERVER_NAME']."</h2><hr>
