@@ -858,6 +858,7 @@ button.navbar-toggle {
 	z-index: 99999;
 	width: 44px;
 	height: 34px;
+	left: 350px;
 }
 }
  @media(max-width:710px) {
@@ -867,6 +868,15 @@ button.navbar-toggle {
 .main__header .navbar-default .navbar-brand, .main__header .navbar-default .navbar-brand:hover { top: -50px !important; left: 20px; }
 .carousel-caption {
 	top: 40px;
+}
+
+button.navbar-toggle {
+	display: block !important;
+	position: relative;
+	z-index: 99999;
+	width: 44px;
+	height: 34px;
+	left: 125px;
 }
 .carousel-control .carousel-control-left {
 	position: absolute;
@@ -934,10 +944,19 @@ header.with-boxed {
 	position: absolute;
 	top: 40px;
 	z-index: 99999;
-	left: 45px;
+	left: 210px !important;
 }
 }
 @media(max-width:600px) {
+
+button.navbar-toggle {
+	display: block !important;
+	position: relative;
+	z-index: 99999;
+	width: 44px;
+	height: 34px;
+	left: 160px;
+}
 .carousel-caption {
 	display: none;
 }
